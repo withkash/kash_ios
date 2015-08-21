@@ -1,0 +1,17 @@
+PODS:
+  - Kash (0.1.0):
+    - WebViewJavascriptBridge (~> 4.1.4)
+  - WebViewJavascriptBridge (4.1.4)
+
+DEPENDENCIES:
+  - Kash (from `../`)
+
+EXTERNAL SOURCES:
+  Kash:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Kash: c9aeae8b42484b9dc76a5964f5232ccd3a317e74
+  WebViewJavascriptBridge: f10ac16f2cd3adf2b941bd79477c55a8f6e01044
+
+COCOAPODS: 0.38.2

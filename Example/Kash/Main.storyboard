@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="NA8-MV-f6d">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="46G-Dg-0yx">
+            <objects>
+                <viewController autoresizesArchivedViewToFullSize="NO" id="NA8-MV-f6d" customClass="KCViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ivv-JF-Red"/>
+                        <viewControllerLayoutGuide type="bottom" id="q9R-pK-KLJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="S5y-RK-VyY">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rID-ff-ZHU">
+                                <rect key="frame" x="88" y="268" width="424" height="63"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <state key="normal" title="Pay with Direct Debit">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="doneButtonClick:" destination="NA8-MV-f6d" eventType="touchUpInside" id="oKN-1n-9QQ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="rID-ff-ZHU" secondAttribute="centerX" id="3Jr-kt-LYB"/>
+                            <constraint firstAttribute="centerY" secondItem="rID-ff-ZHU" secondAttribute="centerY" id="Oga-6E-NE3"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kG4-d7-cUo" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="262" y="217"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,6 @@
+framework module Kash {
+  umbrella header "Kash-umbrella.h"
+
+  export *
+  module * { export * }
+}

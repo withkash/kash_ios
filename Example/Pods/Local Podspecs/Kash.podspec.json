@@ -1,0 +1,30 @@
+{
+  "name": "Kash",
+  "version": "0.1.0",
+  "summary": "A short description of Kash.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/Kash",
+  "license": "MIT",
+  "authors": {
+    "Kash Corp.": "info@withkash.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/Kash.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "Kash": [
+      "Pod/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "WebViewJavascriptBridge": [
+      "~> 4.1.4"
+    ]
+  }
+}
